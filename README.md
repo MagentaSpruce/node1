@@ -113,7 +113,7 @@ All of the pieces which are to be added dynamically must be prepared by using pl
 ```
 
 This process was repeated for all three templates. Special note should be given to the anchor class inside of template-cards as the href is what will dynamically set the product number so as to retrieve and display the correct data
-```HTML
+```JavaScript
 <a class="card__link" href="/product?id={%ID%}">
 ```
 
