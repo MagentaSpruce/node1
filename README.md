@@ -104,7 +104,7 @@ Next up is building the UI. This was done by creating three templates - 1 for th
 
 All of the pieces which are to be added dynamically must be prepared by using placeholders in the templates where appropriate. Then later the placeholder will get replaced with the real data. 
 ```JavaScript
-<h2 class="product__name">{%PRODUCTNAME%}</h2>
+
         <div class="product__details">
           <p><span class="emoji-left">🌍</span>From {%FROM%}</p>
           <p><span class="emoji-left">❤️</span>{%NUTRIENTS%}</p>
