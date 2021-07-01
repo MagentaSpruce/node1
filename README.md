@@ -1,7 +1,7 @@
 # node1
 First Node.JS project using simple API
 
-This Node.JS project is based on a simple selection of products where product information is served dynamic via a simple API. You will need to use the following local address to use this application: http://127.0.0.1:8000/     There are currently the following routes specified: /   /overview   /product  /api   as well as an error route and routes for each product according to its ID as specified in the JSON file containing all of the product information. 
+This Node.JS project is based on a simple selection of products where product information is served dynamic via a simple API. There are currently the following routes specified: /   /overview   /product  /api   as well as an error route and routes for each product according to its ID as specified in the JSON file containing all of the product information. 
 
 This project helped me to learn and better understand:
 1) What Node actually is
@@ -103,7 +103,7 @@ At this point the API is up and working. It sends back the data contained in the
 Next up is building the UI. This was done by creating three templates - 1 for the overview page of the API, one for the product page of the API and one for the product cards which make up the product container of the API. Since it cannot always be known the number of products, creating a single template allows it to be inserted as many times as required. 
 
 All of the pieces which are to be added dynamically must be prepared by using placeholders in the templates where appropriate. Then later the placeholder will get replaced with the real data. 
-```HTML
+```JavaScript
 <h2 class="product__name">{%PRODUCTNAME%}</h2>
         <div class="product__details">
           <p><span class="emoji-left">🌍</span>From {%FROM%}</p>
